@@ -29,8 +29,12 @@ jobs:
             - ~/.cache/yarn
 
       - run:
-          name: Gatsby Build
+          name: Build
           command: yarn build
+
+      - run:
+          name: Publish
+          command: npm run semantic-release
 
 workflows:
   version: 2

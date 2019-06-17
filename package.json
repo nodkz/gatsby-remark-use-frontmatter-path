@@ -1,7 +1,7 @@
 {
   "name": "gatsby-remark-use-frontmatter-path",
   "description": "If markdown file has a relative url to another markdown file then url will be replaced by frontmatter path value.",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "author": "Pavel Chertorogov <pavel.chertorogov@gmail.com>",
   "dependencies": {
     "gray-matter": "4.0.2",
@@ -41,7 +41,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nodkz/gatsby-remark-use-frontmatter-path.git"
+    "url": "https://github.com/nodkz/gatsby-remark-use-frontmatter-path.git"
   },
   "bugs": {
     "url": "https://github.com/nodkz/gatsby-remark-use-frontmatter-path/issues"
