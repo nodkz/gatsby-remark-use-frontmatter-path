@@ -1,0 +1,50 @@
+{
+  "name": "gatsby-remark-use-frontmatter-path",
+  "description": "If markdown file has a relative url to another markdown file then url will be replaced by frontmatter path value.",
+  "version": "0.0.1",
+  "author": "Pavel Chertorogov <pavel.chertorogov@gmail.com>",
+  "dependencies": {
+    "gray-matter": "4.0.2",
+    "is-relative-url": "3.0.0",
+    "unist-util-visit": "1.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "12.0.8",
+    "@typescript-eslint/eslint-plugin": "^1.10.2",
+    "@typescript-eslint/parser": "^1.10.2",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2",
+    "semantic-release": "^15.13.16",
+    "typescript": "3.5.2"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "markdown",
+    "matter",
+    "frontmatter",
+    "remark",
+    "frontmatter path"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ./",
+    "prepublishOnly": "tsc -p ./",
+    "semantic-release": "semantic-release",
+    "lint": "npm run eslint && npm run tscheck",
+    "eslint": "eslint 'src/**/*.{js,ts}'",
+    "tscheck": "tsc --noEmit",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodkz/gatsby-remark-use-frontmatter-path.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodkz/gatsby-remark-use-frontmatter-path/issues"
+  },
+  "homepage": "https://github.com/nodkz/gatsby-remark-use-frontmatter-path#readme"
+}
